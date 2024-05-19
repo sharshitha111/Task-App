@@ -1,6 +1,5 @@
 package com.example.notessqlite
 
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

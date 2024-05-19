@@ -18,19 +18,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginLeft="11dp"
         android:fontFamily="@font/poppins"
-        android:text="Edit Note"
+        android:text="Edit Your Activity"
         android:textColor="#0C0C0C"
         android:textStyle="bold"
         android:textSize="27sp" />
 
-    <ImageView
-        android:id="@+id/updateSaveButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/baseline_done_24"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/editNoteHeading"
-        android:layout_marginEnd="6dp"/>
 
     <EditText
         android:id="@+id/updateTitleEditText"
@@ -67,6 +59,20 @@
         android:background="@drawable/orange_border"
         android:layout_below="@id/updateTitleEditText"
         android:layout_marginTop="12dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/updateSaveButton"
+        android:layout_width="82dp"
+        android:layout_height="84dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#7940DF"
+        android:src="@drawable/baseline_add_24"
+        android:tint="#F3E708" />
 
 
 

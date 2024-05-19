@@ -42,7 +42,7 @@ class UpdateActivity : AppCompatActivity() {
             val updatedNote = Note(noteId, newTitle, newContent)
             db.updateNote(updatedNote)
             finish()
-            Toast.makeText(this, "Changes Saved", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Changes are Saved", Toast.LENGTH_SHORT).show()
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
